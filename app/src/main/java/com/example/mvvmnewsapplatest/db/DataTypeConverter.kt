@@ -4,7 +4,7 @@ import androidx.room.TypeConverter
 import com.example.mvvmnewsapplatest.model.Source
 import com.google.gson.Gson
 
-class DataConverter {
+class DataTypeConverter {
 
     @TypeConverter
     fun fromSource (source: Source): String {
