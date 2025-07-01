@@ -1,4 +1,4 @@
-package com.example.mvvmnewsapplatest.network.response
+package com.example.mvvmnewsapplatest.model
 
 data class Source(
     val id: String,
