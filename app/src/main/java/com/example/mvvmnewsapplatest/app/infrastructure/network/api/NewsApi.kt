@@ -1,7 +1,7 @@
-package com.example.mvvmnewsapplatest.network.api
+package com.example.mvvmnewsapplatest.app.infrastructure.network.api
 
-import com.example.mvvmnewsapplatest.model.NewsResponse
-import com.example.mvvmnewsapplatest.network.constants.Constants.Companion.API_KEY
+import com.example.mvvmnewsapplatest.app.model.NewsResponse
+import com.example.mvvmnewsapplatest.app.infrastructure.network.constants.Constants
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
@@ -15,7 +15,7 @@ interface NewsApi {
         @Query ("page")
         pageNumber: Int,
         @Query ("apiKey")
-        apiKey: String = API_KEY
+        apiKey: String = Constants.Companion.API_KEY
     ): Response<NewsResponse>
 
     @GET ("v2/everything")
@@ -25,6 +25,6 @@ interface NewsApi {
         @Query ("page")
         pageNumber: Int,
         @Query ("apiKey")
-        apiKey: String = API_KEY
+        apiKey: String = Constants.Companion.API_KEY
     ): Response<NewsResponse>
 }

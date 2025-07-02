@@ -1,7 +1,7 @@
-package com.example.mvvmnewsapplatest.db
+package com.example.mvvmnewsapplatest.app.infrastructure.storage
 
 import androidx.room.TypeConverter
-import com.example.mvvmnewsapplatest.model.Source
+import com.example.mvvmnewsapplatest.app.model.Source
 import com.google.gson.Gson
 
 class DataTypeConverter {

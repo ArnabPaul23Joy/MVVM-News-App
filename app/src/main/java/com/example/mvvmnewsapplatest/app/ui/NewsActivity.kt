@@ -1,4 +1,4 @@
-package com.example.mvvmnewsapplatest.ui
+package com.example.mvvmnewsapplatest.app.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

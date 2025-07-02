@@ -1,4 +1,4 @@
-package com.example.mvvmnewsapplatest.db
+package com.example.mvvmnewsapplatest.app.infrastructure.storage
 
 import android.content.Context
 import androidx.room.Room

@@ -1,4 +1,4 @@
-package com.example.mvvmnewsapplatest.network.constants
+package com.example.mvvmnewsapplatest.app.infrastructure.network.constants
 
 class Constants {
     companion object {

@@ -16,7 +16,7 @@
  * to change without notice.
  */
 
-package com.example.mvvmnewsapplatest.db
+package com.example.mvvmnewsapplatest.app.infrastructure.storage
 
 object DatabaseConfig {
 
